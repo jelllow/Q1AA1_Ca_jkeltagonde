@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    top: 0;
+    position: fixed;
+    padding: 10px;
+    height: 8vh;
+    width: 100vw;
+    background-color: cornflowerblue;
+}
+
+.Logo img{
+    border: 2px solid skyblue;
+    border-radius: 360px;
+    height: 35px;
+    margin-top: -.9vh;
+    margin-left: 10vh;
+}
+
+.navbar #inks{
+    display: inline;
+}
+
+.navbar #links a{
+    background-color: skyblue;
+    border-radius: 5px;
+    padding: 1vh;
+    margin-right: 2vh;
+    float: right;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar #links #Gallery{
+    margin-right: 10vh;
+}
+
+.banner{
+    background-image: url(instruments.jpg);
+    background-size: cover;
+    padding: 5vw;
+    background-color: skyblue;
+    height: 80vh;
+    width: 97vw;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner h1{
+    color: wheat;
+    font-size: xx-large;
+    margin-top: 3em;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.banner span{
+    color: coral;
+}
+
+.banner p{
+    color: whitesmoke;
+    font-size: large;
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 8.5px;
+}
+
+.banner a{
+    text-decoration: none;
+    text-align: left;
+    font-weight: 500px;
+}
+
+.banner #start{
+    color: beige;
+    font-size: large;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: skyblue;
+}
+
+.footer{
+    color: bisque;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 8vh;
+    background-color: cornflowerblue;
+}
+
+.footer .flinks a{
+    text-decoration: none;
+    float: right;
+}
+
+.footer .flinks img{
+    height: 5vh;
+    border-radius: 360px;
+    margin-right: 5px;
+}
+
+.content{
+    background-color: skyblue;
+}
+
+.gallery{
+    padding: 1.5vw;
+    width: 90vw;
+    height: 9vh;
+    background-position: center;
+    margin-top: 60px;
+    text-align: center;
+    
+}
+
+.gallery h1{
+    font-size: 50px;
+    color: wheat;
+}
+
+.pics{
+    display: flex;
+}
+
+.pics img{
+    width: 200px;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    border: 5px outset cornflowerblue;
+}
+
